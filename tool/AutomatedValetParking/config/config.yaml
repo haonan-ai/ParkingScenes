@@ -1,0 +1,48 @@
+## config for hybrid a star
+  steering_angle_num: 11 # steering angle discrete
+  dt: 0.1 # s used for compute trajectory distance while expanding nodes
+  Benchmark_path: BenchmarkCases # case folder name
+  trajectory_dt: 0.1 # s discrete the trajectory for collision check
+  map_discrete_size: 0.1 # m
+  flag_radius: 18 # m (in this circle area, we use rs curve to connect goal pose)
+  extended_num: 1 # extend point at the end of orignal path
+
+## hybrid cost
+  cost_gear: 1
+  cost_heading_change: 0.5
+  cost_scale: 10
+
+## collision check
+  safe_side_dis: 0 # m
+  safe_fr_dis: 0 # m
+  collision_check: distance # choose a method for collision check: 'circle', 'distance', 
+  draw_collision: False # draw collision position while searching new nodes
+
+## path optimization
+  # expand distance for path optimization
+  expand_dis: 0.8 #m
+  # weight used for path optimization
+  smooth_cost: 5
+  compact_cost: 3
+  offset_cost: 0.8
+  slack_cost: 1
+
+## velocity plan
+  # velocity function
+  velocity_func_type: sin_func # only sin_func for teh moment
+  # velocity plan points
+  velocity_plan_num: 100 # num
+
+## ocp optimization
+  # cost coefficient for steering angle
+  cost_steering_angle: 10
+  cost_omega: 10
+  cost_acceleration: 10
+  cost_velocity: 10
+  cost_time: 100
+
+## save info
+  # save path
+  save_path: solution # do not edit
+  # save pictures
+  pic_path: pictures
