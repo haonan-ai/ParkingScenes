@@ -3,9 +3,8 @@ import logging
 import carla    # CARLA 仿真平台的核心 Python API
 import pygame   # 用于渲染窗口和处理用户输入
 
-from data_generation.data_generator import DataGenerator
-from data_generation.keyboard_control import KeyboardControl
-from data_generation.auto_park_1 import Auto_Park
+from tool.data_generator import DataGenerator
+from tool.auto_park_1 import Auto_Park
 
 
 def game_loop(args):

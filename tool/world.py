@@ -8,10 +8,10 @@ from queue import Queue, Empty
 import numpy as np
 import carla
 
-from data_generation.hud import HUD, get_actor_display_name
-from data_generation.sensors import CollisionSensor, CameraManager
-from data_generation import parking_position
-from data_generation.bev_render import BevRender
+from tool.hud import HUD, get_actor_display_name
+from tool.sensors import CollisionSensor, CameraManager
+from tool import parking_position
+from tool.bev_render import BevRender
 
 
 # 获取 CARLA 所有预设天气参数，返回列表

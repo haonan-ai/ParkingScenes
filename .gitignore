@@ -1,0 +1,76 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+*.so
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+*.egg-info/
+.eggs/
+
+# VSCode settings
+.vscode/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Compiled files
+*.o
+*.out
+*.a
+
+# ROS/CMake build artifacts
+build/
+devel/
+install/
+log/
+*.launch.pyc
+
+# CARLA-related
+carla/
+*.ue4
+*.carla
+*.map
+
+# Model files and datasets
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.npz
+*.npy
+*.tar.gz
+*.zip
+*.bag
+*.pcd
+
+# Output images and videos
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.gif
+*.mp4
+*.avi
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Environment/config files
+.env
+*.env
+
+# Git folder (never upload this accidentally)
+.git/

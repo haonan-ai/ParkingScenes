@@ -9,7 +9,7 @@ import carla
 
 from carla import ColorConverter as cc
 
-from data_generation.hud import get_actor_display_name
+from tool.hud import get_actor_display_name
 
 
 # Carla 碰撞传感器

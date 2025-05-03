@@ -7,12 +7,12 @@ project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 if project_root not in sys.path:
     sys.path.insert(0, project_root)
 import carla
-from data_generation import parking_position
+from tool import parking_position
 import pygame
 import math
 import csv
-from data_generation.AutomatedValetParking.plan import plan
-from data_generation.MotionPlanning.Control.MPC import Motion
+from tool.AutomatedValetParking.plan import plan
+from tool.MotionPlanning.Control.MPC import Motion
 import numpy as np
 
 
