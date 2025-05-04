@@ -7,14 +7,15 @@ cd carla
 
 # 2. 下载并解压主程序包
 echo "==> Downloading CARLA 0.9.14..."
-wget -q https://carla-releases.s3.us-east-005.backblazeb2.com/Linux/CARLA_0.9.14.tar.gz
+wget  https://carla-releases.s3.us-east-005.backblazeb2.com/Linux/CARLA_0.9.14.tar.gz
 echo "==> Extracting CARLA..."
 tar -xf CARLA_0.9.14.tar.gz
 rm CARLA_0.9.14.tar.gz
 
 # 3. 下载额外地图包到 Import/ 下
 echo "==> Downloading AdditionalMaps 0.9.14..."
-wget -q -O Import/AdditionalMaps_0.9.14.tar.gz https://carla-releases.s3.us-east-005.backblazeb2.com/Linux/AdditionalMaps_0.9.14.tar.gz
+mkdir -p Import
+wget -O Import/AdditionalMaps_0.9.14.tar.gz https://carla-releases.s3.us-east-005.backblazeb2.com/Linux/AdditionalMaps_0.9.14.tar.gz
 
 # 4. 运行 ImportAssets.sh，将所有 Import/ 下的 .tar.gz 解包
 echo "==> Importing all assets (including AdditionalMaps)..."

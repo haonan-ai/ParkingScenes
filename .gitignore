@@ -54,6 +54,7 @@ carla/
 *.zip
 *.bag
 *.pcd
+*.csv
 
 # Output images and videos
 *.jpg
