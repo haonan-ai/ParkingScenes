@@ -38,7 +38,7 @@ chmod +x setup_carla.sh
 ./setup_carla.sh
 ```
 
-🚘 Data Collection Usage
+## 🚘 Data Collection Usage
 To launch the CARLA simulator and start collecting data:
 
 Step 1: Open the first terminal in the project directory:
@@ -50,11 +50,11 @@ Step 2: Open a second terminal (with ParkingScenes environment activated):
 python3 collect.py
 ```
 
-📚 Citation
+## 📚 Citation
 📌 Citation will be added once the paper is officially accepted.
 
-📬 Contact
+## 📬 Contact
 Haonan Chen – chenhaonan2024@ia.ac.cn
 
-📄 License
+## 📄 License
 This project is released under the Apache 2.0 License.
