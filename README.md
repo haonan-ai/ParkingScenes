@@ -1,7 +1,5 @@
 # ParkingScenes: A Structured Dataset for End-to-End Autonomous Parking in Simulation
 
-[![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](LICENSE)
-
 **ParkingScenes** is a comprehensive multimodal dataset specifically designed for **end-to-end autonomous parking** in the **CARLA** simulator. It features structured and repeatable parking trajectories generated using a **Hybrid A\*** planner and **Model Predictive Control (MPC)** across diverse parking layouts and pedestrian conditions.
 
 > 🔗 **Project Homepage**: [https://github.com/haonan-ai/ParkingScenes](https://github.com/haonan-ai/ParkingScenes)  
@@ -51,9 +49,6 @@ python3 collect.py
 
 ## 📬 Contact
 Haonan Chen – chenhaonan2024@ia.ac.cn
-
-## 📄 License
-This project is released under the Apache 2.0 License.
 
 ## 🙏 Acknowledgements
 
