@@ -57,6 +57,7 @@ carla/
 *.csv
 
 # Output images and videos
+datasets/
 *.jpg
 *.jpeg
 *.png

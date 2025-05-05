@@ -232,6 +232,7 @@ class Auto_Park(object):
                 vehicle_boxes.append(box)
         current_dir = os.path.dirname(os.path.abspath(__file__))
         csv_file_path=os.path.join(current_dir, 'AutomatedValetParking/BenchmarkCases/CARLA.csv')
+        os.makedirs(os.path.dirname(csv_file_path), exist_ok=True)
         with open(csv_file_path, 'w', newline='') as csv_file:
             row_goal_x,row_goal_y=self.calculate_rear_wheel_center(self._parking_goal.x, self._parking_goal.y,\
                                                                    t.rotation.yaw,self.move_back)

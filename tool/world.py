@@ -40,7 +40,6 @@ class World(object):
         self._world.apply_settings(settings)
         self.is_restart=True
         self.over=False
-        self.data=[]
 
         # 选择地图并加载停车位
         if args.map == 'Town04_Opt':

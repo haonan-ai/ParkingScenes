@@ -106,8 +106,8 @@ def main():
     # 数据保存路径
     argparser.add_argument(
         '--save_path',
-        default='./e2e_parking/',
-        help='path to save sensor data (default: ./e2e_parking/)')
+        default='./datasets/',
+        help='path to save sensor data (default: ./datasets/)')
     # 是否随机化静态车辆
     argparser.add_argument(
         '--shuffle_veh',
@@ -149,7 +149,7 @@ def main():
     # 泊车任务数量
     argparser.add_argument(
         '--task_num',
-        default=6,
+        default=2,
         type=int,
         help='number of parking task (Town04_Opt max task_num:16,Town10HD_Opt max task_num:6)')
     

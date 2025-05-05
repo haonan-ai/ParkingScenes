@@ -235,11 +235,6 @@ class DataGenerator:
             self._task_index += 1
             self._world.index = self._task_index
             if self._task_index >= self._num_tasks:
-                csv_file_path=os.path.join('/home/jack/e2e-parking-carla/e2e_parking/Town04_Opt/CARLA.csv')
-                with open(csv_file_path, 'w', newline='') as csv_file:
-                    csv_writer = csv.writer(csv_file)
-                    for da in self._world.data:
-                        csv_writer.writerow(da)
                 logging.info('completed all tasks; Thank you!')
                 exit(0)
             self.restart(args)
