@@ -7,8 +7,6 @@
 > 🔗 **Project Homepage**: [https://github.com/haonan-ai/ParkingScenes](https://github.com/haonan-ai/ParkingScenes)  
 > 📦 **Dataset Download**: [Baidu Drive](https://pan.baidu.com/s/1bPbPc0RCrA2IMFQD46KyLQ?pwd=1234) (Access Code: `1234`)
 
----
-
 ## 🌟 Features
 
 - ✅ 704 **structured parking episodes** with synchronized sensor and control data  
@@ -17,8 +15,6 @@
 - ✅ Provides multimodal data: RGB, depth, BEV, vehicle motion, and control signals  
 - ✅ Built on **CARLA 0.9.11** for reproducible and scalable simulation  
 - ✅ Fully open-sourced **data collection pipeline**
-
----
 
 ## ⚙️ Environment Setup
 
@@ -58,3 +54,16 @@ Haonan Chen – chenhaonan2024@ia.ac.cn
 
 ## 📄 License
 This project is released under the Apache 2.0 License.
+
+## 🙏 Acknowledgements
+
+This project builds upon and improves the following open-source repositories:
+
+- [**MotionPlanning** by zhm-real](https://github.com/zhm-real/MotionPlanning):  
+  Used and extended the **Hybrid A\*** global path planning algorithm.
+
+- [**AutomatedValetParking** by wenqing-2021](https://github.com/wenqing-2021/AutomatedValetParking):  
+  Adopted and improved the **Model Predictive Control (MPC)** for trajectory tracking.
+
+- [**e2e-parking-carla** by qintonguav](https://github.com/qintonguav/e2e-parking-carla):  
+  Modified the **data collection pipeline**, replacing manual keyboard-based parking with fully automated control.
